@@ -1,0 +1,94 @@
+/* ==UserStyle==
+@name           monkeytype.com - Aug 2024
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("monkeytype.com") {
+  /*  .keymapKey .letter {
+        color: black;
+    }*/
+  /* LEFT HAND */
+
+  /* Left pinky */
+  [data-key="`~"],
+  [data-key="1!"],
+  [data-key="qQ"],
+  [data-key="aA"],
+  [data-key="zZ"] {
+    color: #ff8700 !important;
+  }
+
+  /* Left ring finger */
+  [data-key="2@"],
+  [data-key="wW"],
+  [data-key="sS"],
+  [data-key="xX"] {
+    color: #9f4cff !important;
+  }
+
+  /* Left middle finger */
+  [data-key="3#"],
+  [data-key="eE"],
+  [data-key="dD"],
+  [data-key="cC"] {
+    color: #d40a0a !important;
+  }
+
+  /* Left index finger */
+  [data-key="4$"],
+  [data-key="5%"],
+  [data-key="rR"],
+  [data-key="tT"],
+  [data-key="fF"],
+  [data-key="gG"],
+  [data-key="vV"],
+  [data-key="bB"] {
+    color: #8dfa77 !important;
+  }
+
+  /* RIGHT HAND */
+
+  /* right pinky */
+  [data-key="0)"],
+  [data-key="-_"],
+  [data-key="=+"],
+  [data-key="pP"],
+  [data-key="[{"],
+  [data-key="]}"],
+  [data-key="'\""],
+  [data-key="/?"],
+  [data-key=";:"] {
+    color: #ebff00 !important;
+  }
+
+  /* Right ring finger */
+  [data-key="9("],
+  [data-key="oO"],
+  [data-key="lL"],
+  [data-key=".>"] {
+    color: #00ff60 !important;
+  }
+
+  /* Right midle finger */
+  [data-key="8*"],
+  [data-key="iI"],
+  [data-key="kK"],
+  [data-key=",<"] {
+    color: #00abff !important;
+  }
+
+  /* Right index finger */
+  [data-key="7&"],
+  [data-key="6^"],
+  [data-key="uU"],
+  [data-key="yY"],
+  [data-key="jJ"],
+  [data-key="hH"],
+  [data-key="mM"],
+  [data-key="nN"] {
+    color: #ff3cd9 !important;
+  }
+}
